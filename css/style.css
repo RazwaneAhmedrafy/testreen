@@ -1,0 +1,262 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;	
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*reen project start*/
+
+/*header-section start*/
+
+.header-section{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	background: #f5f7fa;
+	padding: 3px 0px;
+}
+.info{
+	width: 100%;
+
+}
+.info ul{
+	margin: 0px;
+	padding: 0px;
+}
+.info ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 12px;
+}
+.info ul li a{
+	font-size: 14px;
+	font-weight: 400px;
+	color: #506a85;
+	text-decoration: none;
+}
+.info .fa{
+	margin-right: 7px;
+}
+.social-icons{
+	width: 100%;	
+}
+.social-icons ul{
+    margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 12px;
+}
+.social-icons ul li a{
+    font-size: 14px;
+	font-weight: 400px;
+	color: #506a85;
+	
+	transition: 1s;
+}
+.social-icons ul li a:hover{
+	color: #00bc9c;
+}
+.main-menu{
+	width: 100%;
+	padding: 10px 0px;
+}
+.main-menu .navbar-brand{
+	margin-right: 60px;
+}
+.main-menu .bg-light{
+	background: #ffffff !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    color: #506a85;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition: 1s;
+ }
+ .main-menu .navbar-light .navbar-nav .nav-link:hover{
+ 	color:  #00bc9c;
+ }
+ .main-menu .navbar-light .navbar-nav .active>.nav-link{
+ 	color: #00bc9c;
+ }
+ .main-menu .fa-search{
+ 	color: #506a85;
+ 	 font-size: 14px;
+ 	 cursor: pointer;
+ 	 transition: 1s;
+ }
+ .main-menu .fa-search:hover{
+ 	color: #00bc9c;
+ }
+/*header-section end*/
+
+/*Slider-section start*/
+.Slider-section{
+	width: 100%;
+}
+.Slider-section .carousel-caption{
+    bottom: 28%;
+}
+
+.Slider-section .carousel-caption h1{
+    font-size: 59px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.Slider-section .carousel-caption p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #a3b1bf;
+    line-height: 26px;
+}
+.Slider-section .carousel-caption .btn-info{
+	padding: 12px 45px;
+	background:  #00bc9c;
+	color: #ffffff;
+	border: 1px solid #00bc9c;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 30px;
+	transition: 1s;
+}
+.Slider-section .carousel-caption .btn-info:hover{
+	background:  transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+.Slider-section .banner h1{
+	text-align: right;
+}
+.Slider-section .banner p{
+	color: #ffffff;
+	text-align: right;
+}
+
+.Slider-section .banner2 h1{
+	text-align: left;
+	background: #506a85;
+	width: 53%;
+}
+.Slider-section .banner2 p{
+	text-align: left;
+}
+.Slider-section .banner3 h1{
+	text-align: right;
+	color: #ffffff;
+	background: #506a85;
+}
+.Slider-section .banner3 p{
+	text-align: right;
+	color: #ffffff;
+}
+
+/*Slider-section end*/
+
+/*who-we-are-section start*/
+.who-we-are-section{
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.title{
+	text-align: center;
+	background: #ffffff;
+}
+.title h1{
+	color: #506a85;
+	font-size: 32px;
+	font-weight: 700;
+}
+.title p{
+	color: #73879c;
+	padding: 15px 0px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.who-we-are-section .media .media-body h5{
+    color: #506a85;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.who-we-are-section .media .media-body p{
+	color: #73879c;
+	padding: 13px 0px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 12px;
+}
+.who-we-are-section .media{
+	padding: 30px;
+}
+/*who-we-are-section end*/
+
+/*portfolio-section start*/
+.portfolio-section{
+	width: 100%;
+	background: #f2f5f7;
+	padding-top: 60px;
+}
+.port-title{
+	text-align: center;
+	
+}
+.portfolio-section .port-title h1{
+    color: #506a85;
+	font-size: 32px;
+	font-weight: 700;
+}
+.portfolio-section .port-title p{
+    color: #73879c;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.card{
+	width: 100%;
+}
+.card img{
+	width: 100%;
+}
+.card-title{
+	text-align: center;
+	 color: #506a85;
+	font-size: 20px;
+	font-weight: 700;
+}
+.card-text{
+    color: #73879c;
+	padding: 5px 0px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+}
+.item{
+	width: 100%;
+	margin-top: 50px;
+}
+.item img{
+	width: 100%;
+}
+/*portfolio-section end*/
